@@ -1,0 +1,14 @@
+.presentation {
+  background-image: url("/fondo-makalu.avif");
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 3rem;
+}
+
+.presentation-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
