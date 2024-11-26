@@ -1,0 +1,42 @@
+.footer {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 0.85) 30%,
+      rgba(0, 0, 0, 0.8) 50%,
+      rgba(0, 0, 0, 0.85) 70%,
+      rgba(0, 0, 0, 0.9)
+    ),
+    url("/fondo-makalu.avif");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 6em;
+  height: 68vh;
+}
+
+.section-contact {
+  color: white;
+}
+
+h1 {
+  font-size: 3.5em;
+  font-weight: normal;
+}
+
+p {
+  padding-left: 1em;
+}
+.section-icon {
+  display: flex;
+  flex-direction: row;
+  padding: 1em;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}

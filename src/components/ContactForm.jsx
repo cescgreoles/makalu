@@ -31,15 +31,37 @@ const ContactForm = () => {
 
   return (
     <form ref={form} onSubmit={sendEmail} className="contact-form">
-      <label htmlFor="user_name">Nombre:</label>
-      <input type="text" id="user_name" name="user_name" required />
+      <input
+        type="text"
+        id="user_name"
+        name="user_name"
+        placeholder="Nombre *"
+        required
+      />
 
-      <label htmlFor="user_email">Correo Electrónico:</label>
-      <input type="email" id="user_email" name="user_email" required />
-
+      <input
+        type="email"
+        id="user_email"
+        name="user_email"
+        placeholder="Correo Electrónico *"
+        required
+      />
+      <label htmlFor="user_phone"></label>
+      <input
+        type="tel"
+        id="user_phone"
+        name="user_phone"
+        placeholder="Número de Teléfono *"
+        required
+      />
       <label htmlFor="message">Mensaje:</label>
-      <textarea id="message" name="message" rows="5" required></textarea>
-
+      <textarea
+        id="message"
+        name="message"
+        rows="5"
+        placeholder="Mensaje"
+        required
+      ></textarea>
       <button type="submit">Enviar</button>
     </form>
   );

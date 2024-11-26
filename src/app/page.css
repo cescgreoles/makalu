@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* .vector-bg {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: url("/vector.png") no-repeat center center/cover;
+  z-index: 0;
+} */

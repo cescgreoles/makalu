@@ -21,7 +21,6 @@ const Navbar = () => {
             className="logo"
           />
         </li>
-
         <li>
           <Link href="/precios">PRECIOS</Link>
         </li>
