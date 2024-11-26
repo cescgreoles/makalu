@@ -1,0 +1,56 @@
+.section {
+  color: white;
+  background-color: black;
+  font-weight: 300;
+}
+
+.intro {
+  margin-bottom: 40px;
+  padding: 20px;
+}
+
+.video {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  padding: 20px;
+}
+
+.card-grid > .card:nth-last-child(-n + 2) {
+  grid-column: span 1;
+  justify-self: center;
+}
+
+.card {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  background-color: #121212;
+  border-radius: 8px;
+}
+
+.card-image {
+  border-radius: 50%; /* Imagen circular */
+  width: 100px;
+  height: 100px;
+  object-fit: cover; /* Ajustar el contenido dentro del círculo */
+  margin: 0 auto 15px; /* Centrar imagen y separar del texto */
+}
+
+.card-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 14px;
+  line-height: 1.4;
+}

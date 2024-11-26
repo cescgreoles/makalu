@@ -1,4 +1,4 @@
-import "./page.css";
+import "../styles/page.css";
 import Presentation from "@/components/Presentation";
 import Personal from "@/components/Personal";
 import Footer from "@/components/Footer";
