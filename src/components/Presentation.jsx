@@ -9,9 +9,8 @@ const Presentation = () => {
       <Navbar />
       <div className="presentation-container">
         <div className="presentation-text">
-          <h2>CENTRO DE ENTRENAMIENTO Y SALUD</h2>
+          <p>CENTRO DE ENTRENAMIENTO Y SALUD</p>
           <h1>EMPIEZA TU CAMINO HACIA UNA VIDA MÁS SALUDABLE</h1>
-
           <p>
             NOS ESFORZAMOS POR FOMENTAR UN ESTILO DE VIDA ACTIVO Y PROMOVER
             BUENOS HÁBITOS EN ÁREAS COMO ALIMENTACIÓN, LA POSTURA, LA ACTIVIDAD

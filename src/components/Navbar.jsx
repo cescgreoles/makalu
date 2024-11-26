@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import "../styles/Navbar.css";
 
@@ -13,13 +12,9 @@ const Navbar = () => {
           <Link href="/servicios">SERVICIOS</Link>
         </li>
         <li>
-          <Image
-            src="/logo_makalu.avif"
-            alt="Logo Makalu"
-            width={150}
-            height={100}
-            className="logo"
-          />
+          <Link href="/">
+            <h1>M A K A L U</h1>
+          </Link>
         </li>
         <li>
           <Link href="/precios">PRECIOS</Link>

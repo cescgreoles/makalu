@@ -1,4 +1,4 @@
-.presentation {
+.presentation-li {
   background-image: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.7),
@@ -10,20 +10,13 @@
     url("/fondo-makalu.avif");
   background-size: cover;
   background-position: center;
-  padding-bottom: 3rem;
-  height: 90vh;
   color: white;
 }
 
-.presentation-container {
+.presentation-text-li {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  margin-top: 1em;
-}
-
-.presentation-text {
-  width: 40%;
-  height: 50vh;
+  flex-direction: column;
+  width: 80%;
+  max-width: 900px;
+  padding: 3em;
 }

@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <main>
       <Presentation />
-      <div>
+      <div className="vector-bg">
         <Personal />
         <Reviews />
         <Where />
