@@ -1,0 +1,33 @@
+.prices {
+  text-align: center;
+}
+
+.state-buttons {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.state-button {
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.state-button.active {
+  color: #fff;
+  text-decoration: underlines;
+}
+
+.state-button:hover {
+  color: #fff;
+}
+
+.state-content {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+  line-height: 1.5;
+}

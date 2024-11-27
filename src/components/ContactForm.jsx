@@ -46,14 +46,7 @@ const ContactForm = () => {
         placeholder="Correo Electrónico *"
         required
       />
-      <label htmlFor="user_phone"></label>
-      <input
-        type="tel"
-        id="user_phone"
-        name="user_phone"
-        placeholder="Número de Teléfono *"
-        required
-      />
+
       <label htmlFor="message">Mensaje:</label>
       <textarea
         id="message"
@@ -62,7 +55,7 @@ const ContactForm = () => {
         placeholder="Mensaje"
         required
       ></textarea>
-      <button type="submit">Enviar</button>
+      <button type="submit">ENVIAR</button>
     </form>
   );
 };

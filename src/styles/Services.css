@@ -3,7 +3,7 @@
   flex-direction: column;
   gap: 20px;
   justify-content: center;
-  background-color: #000;
+  background-color: transparent;
 }
 
 .service-card {
@@ -26,6 +26,7 @@
   color: #fff;
   border-radius: 50%;
   border: 1px solid #fff;
+
   width: 50px;
   height: 50px;
   display: flex;
@@ -47,6 +48,12 @@
   border-radius: 5px;
   padding: 10px 20px;
   cursor: pointer;
+}
+
+.button-price {
+  width: 100%;
+  display: flex;
+  justify-content: end;
 }
 
 /* .service-price:hover {

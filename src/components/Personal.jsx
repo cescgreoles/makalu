@@ -44,13 +44,13 @@ const Personal = () => {
           >
             <div className="personal-info">
               <p className="personal-text">{item.text}</p>
-              <p className="personal-position">{item.position}</p>
+              <text className="personal-position">{item.position}</text>
             </div>
           </div>
         ))}
       </div>
-      <div>
-        <button className="personal-button">CONOCE MÁS SOBRE NOSOTROS</button>
+      <div className="button-div">
+        <button>CONOCE MÁS SOBRE NOSOTROS</button>
       </div>
     </div>
   );

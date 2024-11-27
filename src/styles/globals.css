@@ -7,19 +7,39 @@
   font-family: "Oswald", sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul,
-ol,
-blockquote,
-figure {
-  margin: 0;
-  padding: 0;
+h1 {
+  font-size: 64px;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+p {
+  font-weight: 300;
+  font-size: 24px;
+}
+
+button {
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+button:active {
+  transform: scale(0.98);
 }
 
 body {
