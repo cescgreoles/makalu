@@ -1,5 +1,4 @@
 .section {
-  color: white;
   background-color: black;
   font-weight: 300;
 }
@@ -7,6 +6,7 @@
 .intro {
   margin-bottom: 40px;
   padding: 20px;
+  text-align: justify;
 }
 
 .video {

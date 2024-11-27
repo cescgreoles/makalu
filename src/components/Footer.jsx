@@ -14,10 +14,11 @@ const Footer = () => {
         <div className="icons">
           <div className="section-icon">
             <FaEnvelope size={20} />
+
             <p>makalufitness@gmail.com</p>
           </div>
           <div className="section-icon">
-            <FaPhone size={20} />
+            <FaPhone size={20} className="icon-footer" />
             <p>672590121</p>
           </div>
           <div className="section-icon">
