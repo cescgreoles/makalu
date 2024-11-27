@@ -5,27 +5,27 @@ const ContentSection = () => {
   const cards = [
     {
       img: "/marti.png",
-      name: "John Doe",
+      name: "Martí Rigol Carrasco",
       text: "El meu objectiu com a entrenador és ajudar-te a assolir les teves metes de manera efectiva i sostenible, brindant-te suport i orientació personalitzada en cada pas del teu camí cap a una vida més saludable.Tractaré de motivar-te i transformar la teva vida a través de programes d'entrenament adaptats a les teves necessitats individuals.",
     },
     {
       img: "/kike.png",
-      name: "Jane Smith",
+      name: "Enric Garcia Moliner",
       text: "El meu objectiu com a entrenador és ajudar-te a assolir les teves metes de manera efectiva i sostenible, brindant-te suport i orientació personalitzada en cada pas del teu camí cap a una vida més saludable.Tractaré de motivar-te i transformar la teva vida a través de programes d'entrenament adaptats a les teves necessitats individuals.",
     },
     {
       img: "/ale.png",
-      name: "Alice Johnson",
+      name: "Alexandre Romeu Diaz",
       text: "El meu objectiu com a entrenador és ajudar-te a assolir les teves metes de manera efectiva i sostenible, brindant-te suport i orientació personalitzada en cada pas del teu camí cap a una vida més saludable.Tractaré de motivar-te i transformar la teva vida a través de programes d'entrenament adaptats a les teves necessitats individuals.",
     },
     {
       img: "/gerard.png",
-      name: "Mark Lee",
+      name: "Gerard Perez Arenas",
       text: "El meu objectiu com a entrenador és ajudar-te a assolir les teves metes de manera efectiva i sostenible, brindant-te suport i orientació personalitzada en cada pas del teu camí cap a una vida més saludable.Tractaré de motivar-te i transformar la teva vida a través de programes d'entrenament adaptats a les teves necessitats individuals.",
     },
     {
       img: "/nutri.png",
-      name: "Emily Davis",
+      name: "Alvaro Prat Roch",
       text: "El meu objectiu com a entrenador és ajudar-te a assolir les teves metes de manera efectiva i sostenible, brindant-te suport i orientació personalitzada en cada pas del teu camí cap a una vida més saludable.Tractaré de motivar-te i transformar la teva vida a través de programes d'entrenament adaptats a les teves necessitats individuals.",
     },
   ];
@@ -69,20 +69,22 @@ const ContentSection = () => {
         </p>
       </div>
 
-      <div className="card-grid">
-        {cards.map((card, index) => (
-          <div key={index} className="card">
-            <Image
-              src={card.img}
-              alt={card.name}
-              width={150}
-              height={150}
-              className="card-image"
-            />
-            <h3 className="card-title">{card.name}</h3>
-            <p className="card-text">{card.text}</p>
-          </div>
-        ))}
+      <div className="section">
+        <div className="team-grid">
+          {cards.map((card, index) => (
+            <div key={index} className="team-member">
+              <Image
+                src={card.img}
+                alt={card.name}
+                width={250}
+                height={250}
+                className="member-photo"
+              />
+              <h3>{card.name}</h3>
+              <p>{card.text}</p>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );

@@ -16,40 +16,96 @@
   margin-bottom: 40px;
 }
 
-.card-grid {
+.team-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 40px;
-  padding: 20px;
+  grid-template-rows: auto auto auto;
+  gap: 50px;
+  position: relative;
+  justify-items: center;
 }
 
-.card-grid > .card:nth-last-child(-n + 2) {
-  grid-column: span 1;
-  justify-self: center;
-}
-
-.card {
-  width: 100%;
-  padding: 20px;
+.team-member {
   text-align: center;
-  background-color: #121212;
-  border-radius: 8px;
+  width: 300px;
+  height: auto;
+  background-color: rgb(24, 23, 23);
+  padding: 10px;
 }
 
-.card-image {
-  border-radius: 50%; /* Imagen circular */
-  width: 100px;
-  height: 100px;
-  object-fit: cover; /* Ajustar el contenido dentro del círculo */
-  margin: 0 auto 15px; /* Centrar imagen y separar del texto */
-}
-
-.card-title {
-  font-size: 18px;
+.member-photo {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
   margin-bottom: 10px;
 }
 
-.card-text {
-  font-size: 14px;
-  line-height: 1.4;
+.team-member:nth-child(1) {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.team-member:nth-child(2) {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.team-member:nth-child(3) {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.team-member:nth-child(4) {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.team-member:nth-child(5) {
+  grid-column: 3;
+  grid-row: 3;
+}
+
+.team-grid::before,
+.team-grid::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+}
+
+.team-grid::before {
+  top: 50px;
+  left: 50%;
+  height: 75px;
+}
+
+.team-member:nth-child(1)::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 75px;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.team-member:nth-child(2)::before,
+.team-member:nth-child(3)::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 75px;
+  top: -75px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.team-member:nth-child(4)::before,
+.team-member:nth-child(5)::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 75px;
+  top: -75px;
+  left: 50%;
+  transform: translateX(-50%);
 }

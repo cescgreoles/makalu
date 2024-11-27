@@ -12,28 +12,30 @@ const PresentationLi = () => {
     switch (pathname) {
       case "/nosotros":
         return {
-          heading: "CONOCE QUIÉNES SOMOS",
-          text: "Somos un equipo apasionado por promover el bienestar físico y emocional a través del entrenamiento y la salud.",
+          heading: "MÁS QUE UN CENTRO DE ENTRENAMIENTO Y SALUD EN BARCELONA",
+          text: "CENTRO DE ENTRENAMIENTO Y SALUD",
         };
       case "/servicios":
         return {
-          heading: "DESCUBRE NUESTROS SERVICIOS",
-          text: "Ofrecemos programas personalizados de entrenamiento, asesorías nutricionales y planes de recuperación física.",
+          heading:
+            "VARIEDAD DE SERVICIOS DISEÑADOS PARA MEJORAR TU CALIDAD DE VIDA",
+          text: "CENTRO DE ENTRENAMIENTO Y SALUD",
         };
       case "/precios":
         return {
-          heading: "PLANES PARA TODOS LOS PRESUPUESTOS",
-          text: "Elige entre nuestras opciones de membresías adaptadas a tus necesidades y objetivos de salud.",
+          heading:
+            "PRECIOS DE NUESTROS BONOS DE ENTRENAMIENTO PERSONAL, FISIOTERAPIA Y NUTRICIÓN",
+          text: "CENTRO DE ENTRENAMIENTO Y SALUD",
         };
       case "/contacto":
         return {
           heading: "¡HABLEMOS!",
-          text: "Contáctanos para resolver tus dudas y comenzar tu camino hacia una vida más saludable.",
+          text: "CENTRO DE ENTRENAMIENTO Y SALUD",
         };
       default:
         return {
           heading: "EMPIEZA TU CAMINO HACIA UNA VIDA MÁS SALUDABLE",
-          text: "Nos esforzamos por fomentar un estilo de vida activo y promover buenos hábitos en alimentación, postura, actividad física y descanso.",
+          text: "CENTRO DE ENTRENAMIENTO Y SALUD",
         };
     }
   };

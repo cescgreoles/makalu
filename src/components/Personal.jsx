@@ -44,7 +44,7 @@ const Personal = () => {
           >
             <div className="personal-info">
               <p className="personal-text">{item.text}</p>
-              <text className="personal-position">{item.position}</text>
+              <span className="personal-position">{item.position}</span>
             </div>
           </div>
         ))}

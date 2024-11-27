@@ -3,31 +3,62 @@
 }
 
 .state-buttons {
-  margin: 20px 0;
   display: flex;
   justify-content: center;
-  gap: 10px;
 }
 
 .state-button {
-  padding: 10px 20px;
   cursor: pointer;
-  font-size: 16px;
-  transition: all 0.3s ease;
+  border-bottom: 2px solid gray;
+  color: gray;
+  transition: color 0.3s, border-color 0.3s;
+  padding: 0 20px;
 }
 
 .state-button.active {
-  color: #fff;
-  text-decoration: underlines;
+  color: white;
+  border-color: white;
 }
 
-.state-button:hover {
-  color: #fff;
+.pricing-table-up {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 5em;
+}
+.pricing-table {
+  border: 1px solid white;
+  border-radius: 8px;
+  background-color: black;
+  padding: 20px;
+  margin: 20px 0;
+  width: 30%;
 }
 
-.state-content {
-  margin-top: 20px;
-  font-size: 18px;
-  color: #333;
-  line-height: 1.5;
+.pricing-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.pricing-row:last-child {
+  border-bottom: none;
+}
+
+.pricing-row span {
+  color: #aaa;
+}
+
+.fisio-div {
+  display: flex;
+  padding: 5em;
+  justify-content: center;
+  align-items: center;
+}
+
+.nutri-div {
+  display: flex;
+  padding: 3em;
+  justify-content: center;
+  align-items: center;
 }

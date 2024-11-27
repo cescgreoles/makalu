@@ -12,7 +12,7 @@ export default function Home() {
       <div className="vector-bg">
         <Personal />
         <Reviews />
-        <Where />
+        <Where lat={41.3696848} lng={2.1409981} />
       </div>
       <footer>
         <Footer />
