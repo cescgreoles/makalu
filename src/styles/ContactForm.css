@@ -5,6 +5,8 @@
   backdrop-filter: blur(1px);
   border: 1px solid white;
   font-weight: 300;
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 .contact-form label {
@@ -50,4 +52,48 @@
 
 .contact-form button:hover {
   background-color: #f0f0f0;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .contact-form {
+    padding: 15px;
+    max-width: 90%;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+
+  .contact-form textarea {
+    height: 8vh;
+  }
+
+  .contact-form button {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-form {
+    padding: 10px;
+    max-width: 100%;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.8rem;
+    padding: 6px;
+  }
+
+  .contact-form textarea {
+    height: 6vh;
+  }
+
+  .contact-form button {
+    font-size: 0.8rem;
+    padding: 8px;
+  }
 }

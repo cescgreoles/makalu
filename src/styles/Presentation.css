@@ -10,25 +10,86 @@
     url("/fondo-makalu.avif");
   background-size: cover;
   background-position: center;
-  padding-bottom: 3rem;
-  height: 100vh;
+  height: 95vh;
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .presentation-container {
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: space-around;
-  margin-top: 1em;
-}
-
-.text-presentation {
-  font-size: 16px;
-  font-weight: 400;
+  align-items: center;
+  padding: 1em;
+  gap: 1em;
 }
 
 .presentation-text {
   width: 50%;
-  height: 50vh;
+  font-size: 1.2em;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.presentation-form {
+  width: 40%;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 1024px) {
+  .presentation-text {
+    font-size: 1.1em;
+  }
+
+  .presentation-container {
+    padding: 0.5em;
+  }
+}
+
+@media (max-width: 768px) {
+  .presentation {
+    height: auto;
+    padding: 2em 1em;
+  }
+
+  .presentation-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+  }
+
+  .presentation-text,
+  .presentation-form {
+    width: 90%;
+    text-align: center;
+  }
+
+  .presentation-text {
+    margin-bottom: 1em;
+  }
+
+  .presentation-text h1 {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 480px) {
+  .presentation-container {
+    padding: 2.5em;
+  }
+
+  .presentation-form {
+    width: 100%;
+  }
 }

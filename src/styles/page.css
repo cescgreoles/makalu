@@ -4,11 +4,6 @@ main {
   min-height: 100vh;
 }
 
-.presentation {
-  padding-left: 60px;
-  padding-right: 60px;
-}
-
 .vector-bg {
   position: relative;
   width: 100%;

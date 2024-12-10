@@ -76,8 +76,8 @@ const ContentSection = () => {
               <Image
                 src={card.img}
                 alt={card.name}
-                width={250}
-                height={250}
+                width={150}
+                height={150}
                 className="member-photo"
               />
               <h3>{card.name}</h3>

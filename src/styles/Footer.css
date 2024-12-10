@@ -34,3 +34,17 @@
   flex-direction: column;
   justify-content: space-around;
 }
+
+@media (max-width: 768px) {
+  .footer {
+    height: auto;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 2em;
+  }
+
+  .section-icon {
+    flex-direction: column;
+    gap: 1em;
+  }
+}
