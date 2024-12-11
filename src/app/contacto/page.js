@@ -9,7 +9,6 @@ const page = () => {
     <div>
       <PresentationLi />
       <div className="vector-bg">
-        <ContactForm />
         <Where lat={41.3696848} lng={2.1409981} />
       </div>
       <Footer />

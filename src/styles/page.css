@@ -30,3 +30,9 @@ main {
   z-index: 2;
   background: transparent;
 }
+
+@media (max-width: 768px) {
+  .vector-bg {
+    padding: 20px;
+  }
+}

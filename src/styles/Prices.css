@@ -62,3 +62,44 @@
   justify-content: center;
   align-items: center;
 }
+
+@media (max-width: 768px) {
+  .pricing-table-up {
+    flex-direction: column;
+    padding: 2em;
+  }
+
+  .pricing-table {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .state-buttons {
+    flex-direction: column;
+  }
+
+  .state-button {
+    padding: 10px;
+    font-size: 1em;
+  }
+
+  .fisio-div,
+  .nutri-div {
+    padding: 2em;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .pricing-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .pricing-row div {
+    margin: 5px 0;
+  }
+
+  .pricing-row span {
+    font-size: 0.9em;
+  }
+}
